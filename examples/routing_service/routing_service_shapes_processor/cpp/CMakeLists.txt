@@ -63,7 +63,8 @@ set_target_properties(shapesprocessor
 
 target_link_libraries(shapesprocessor
     RTIConnextDDS::cpp2_api
-    RTIConnextDDS::routing_service_infrastructure)
+    RTIConnextDDS::routing_service_infrastructure
+    RTIConnextDDS::routing_service_c)
 
 target_include_directories(shapesprocessor
     PUBLIC
